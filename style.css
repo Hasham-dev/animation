@@ -26,7 +26,8 @@ html {
 }
 
 img[alt='logo'] {
-  min-width: 60px;
+  min-width: 70px;
+  height: 45px;
 }
 
 body {
