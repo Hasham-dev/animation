@@ -1,0 +1,36 @@
+[debug] [2023-06-19T20:57:00.994Z] ----------------------------------------------------------------------
+[debug] [2023-06-19T20:57:00.995Z] Command:       /Users/vishnuvinayan/.nvm/versions/node/v18.16.0/bin/node /Users/vishnuvinayan/.nvm/versions/node/v14.16.1/bin/firebase serve --only hosting
+[debug] [2023-06-19T20:57:00.995Z] CLI Version:   12.4.0
+[debug] [2023-06-19T20:57:00.996Z] Platform:      darwin
+[debug] [2023-06-19T20:57:00.996Z] Node Version:  v18.16.0
+[debug] [2023-06-19T20:57:00.996Z] Time:          Tue Jun 20 2023 00:57:00 GMT+0400 (Gulf Standard Time)
+[debug] [2023-06-19T20:57:00.996Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-19T20:57:01.047Z] Field ".functions" in "firebase.json" is possibly invalid: should be object
+[debug] [2023-06-19T20:57:01.047Z] Object ".functions[0]" in "firebase.json" has unknown property: {"additionalProperty":"emulators"}
+[debug] [2023-06-19T20:57:01.047Z] Field ".functions" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2023-06-19T20:57:01.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-19T20:57:01.050Z] > authorizing via signed-in user (therealvishnuvinayan@gmail.com)
+[debug] [2023-06-19T20:57:01.050Z] [iam] checking project gulbahar-98b51 for permissions ["firebase.projects.get"]
+[debug] [2023-06-19T20:57:01.051Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gulbahar-98b51:testIamPermissions [none]
+[debug] [2023-06-19T20:57:01.051Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gulbahar-98b51:testIamPermissions x-goog-quota-user=projects/gulbahar-98b51
+[debug] [2023-06-19T20:57:01.051Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gulbahar-98b51:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-06-19T20:57:02.475Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gulbahar-98b51:testIamPermissions 200
+[debug] [2023-06-19T20:57:02.476Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gulbahar-98b51:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-06-19T20:57:02.477Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 [none]
+[debug] [2023-06-19T20:57:03.091Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 200
+[debug] [2023-06-19T20:57:03.091Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 {"projectId":"gulbahar-98b51","projectNumber":"466230848228","displayName":"Gulbahar","name":"projects/gulbahar-98b51","resources":{"hostingSite":"gulbahar-98b51"},"state":"ACTIVE","etag":"1_e831bc56-cfea-4dce-8612-450c6e7977dd"}
+[debug] [2023-06-19T20:57:03.096Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/gulbahar-98b51/sites 
+[debug] [2023-06-19T20:57:04.727Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/gulbahar-98b51/sites 200
+[debug] [2023-06-19T20:57:04.727Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/gulbahar-98b51/sites {"sites":[{"name":"projects/gulbahar-98b51/sites/gulbahar-98b51","defaultUrl":"https://gulbahar-98b51.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-19T20:57:04.728Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51/webApps/-/config [none]
+[debug] [2023-06-19T20:57:05.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51/webApps/-/config 200
+[debug] [2023-06-19T20:57:05.455Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51/webApps/-/config {"projectId":"gulbahar-98b51","storageBucket":"gulbahar-98b51.appspot.com","apiKey":"AIzaSyDYjxzaQ1muiF54XK4ema9COzORsfkPOpc","authDomain":"gulbahar-98b51.firebaseapp.com","messagingSenderId":"466230848228"}
+[debug] [2023-06-19T20:57:05.464Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 [none]
+[debug] [2023-06-19T20:57:05.916Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 200
+[debug] [2023-06-19T20:57:05.916Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gulbahar-98b51 {"projectId":"gulbahar-98b51","projectNumber":"466230848228","displayName":"Gulbahar","name":"projects/gulbahar-98b51","resources":{"hostingSite":"gulbahar-98b51"},"state":"ACTIVE","etag":"1_e831bc56-cfea-4dce-8612-450c6e7977dd"}
+[info] i  hosting[gulbahar-98b51]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[gulbahar-98b51]: Local server: http://localhost:5003 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5003\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [19/Jun/2023:20:57:25 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5003/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jun/2023:20:57:25 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5003/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [19/Jun/2023:20:57:28 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jun/2023:20:57:28 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [19/Jun/2023:20:57:28 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5003/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jun/2023:20:57:28 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5003/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}

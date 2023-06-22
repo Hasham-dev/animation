@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Brands | Gulbahar Tobacco</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"
+      defer
+    ></script>
+    <script src="https://unpkg.com/@barba/core" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://d33wubrfki0l68.cloudfront.net/bundles/113879dee64f9072fd1b1a852ec02f17043d1fc2.js"
+    ></script>
+  </head>
+
+  <body data-barba="wrapper">
+
+    <div class="cursor">
+      <span></span>
+    </div>
+
+    <nav style="background-color: rgb(49 48 48 / 50%);">
+      <ul>
+        <li>
+          <a href="index.html">
+            <img
+              src="https://www.gulbahartobacco.com/wp-content/uploads/2020/07/L_GTI_Optimized_L2.png"
+              alt="logo"
+              width="52"
+              height="35"
+            />
+          </a>
+        </li>
+
+        <li
+          class="nav-item cursor__hover --highlight"
+          data-attribute-item="home"
+        >
+          <a href="index.html"> Home</a>
+        </li>
+
+        <li
+          class="nav-item cursor__hover --highlight active"
+          data-attribute-item="brands"
+        >
+          <a href="brands.html">Brands</a>
+        </li>
+
+        <li
+          class="nav-item cursor__hover --highlight"
+          data-attribute-item="contact"
+        >
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item --highlight" data-attribute-item="careers">
+          <a href="careers.html">Careers</a>
+        </li>
+
+        <li class="egg" data-attribute-item="easter-egg">
+          <!-- <a class="cursor__hide" href="/archive">Archive</a> -->
+        </li>
+        <div class="row mobile">
+          <div class="col">
+            <span>General Inquiries</span>
+            <a
+              href="mailto:hello@gulbahartobacco.com"
+              class="cursor__hover --highlight"
+              >hello@gulbahartobacco.com</a
+            >
+          </div>
+
+          <div class="col">
+            <span></span>
+            <div class="row">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cursor__hover --highlight"
+              ></a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cursor__hover --highlight"
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-toggle">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </ul>
+    </nav>
+    <!-- <div class="nav-container">
+      <div class="nav-container__inner home">
+        <div class="nav-marquee">
+          <div class="nav-marquee__container">
+            <div class="nav-marquee__inner">
+              <div class="h1 lg">Home</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-container__inner work">
+        <div class="nav-marquee">
+          <div class="nav-marquee__container">
+            <div class="nav-marquee__inner">
+              <div class="h1 lg">Work</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-container__inner studio">
+        <div class="nav-marquee">
+          <div class="nav-marquee__container">
+            <div class="nav-marquee__inner">
+              <div class="h1 lg">Studio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-container__inner contact">
+        <div class="nav-marquee">
+          <div class="nav-marquee__container">
+            <div class="nav-marquee__inner">
+              <div class="h1 lg">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-container__inner ec">
+        <div class="nav-marquee">
+          <div class="nav-marquee__container">
+            <div class="nav-marquee__inner">
+              <div class="h1 lg">ExtraCredit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div
+      class="barba-container loading"
+      data-barba="container"
+      data-barba-namespace="studio"
+      id="smooth-wrapper"
+    >
+      <main id="smooth-content">
+        <section id="banner">
+          <aside class="est">
+            <span>EST. 1975</span>
+          </aside>
+          <aside class="label">
+            <p class="subtitle"></p>
+          </aside>
+
+          <div class="container">
+            <h4 class="lg"><div>A symphony of</div></h4>
+            <h4 class="lg">
+              <div>art &<span class="img-spacer"></span> flavours</div>
+            </h4>
+            <h4 class="lg"><div>Delightful</div></h4>
+            <h4 class="lg"><div>Creations</div></h4>
+          </div>
+          <img
+            srcset="./images/studio-small.png"
+            sizes="(min-width: 1024px) 13vw, 25vw"
+            src="./images/studio-small.png"
+            alt="intro-image"
+            width="365"
+            height="469"
+          />
+        </section>
+
+        <section id="full-image" class="st__plax --full full-height">
+          <img
+            srcset="./images/studio-large.png"
+            sizes="100vw"
+            src="./images/studio-large.png"
+            alt="intro-image"
+            width="1920"
+            height="1310"
+            class="st__plax--inner"
+          />
+        </section>
+
+        <section class="bg__trigger" style="margin-top: -1px">
+          <section id="intro">
+            <h1 class="lg st__headline">Indulge in our flagship sensations</h1>
+            <div class="row">
+              <div class="col">
+                <img
+                  srcset="./images/studio-img-1.png"
+                  sizes="(min-width: 1024px) 30vw, 45vw"
+                  src="./images/studio-img-1.png"
+                  alt="intro-image"
+                  width="570"
+                  height="705"
+                  class="st__image--spread"
+                />
+              </div>
+              <div class="col">
+                <p>We never settle for "good enough" because excellence is our driving force. With an exceptional team at Gulbahar Tobacco, we approach each project as a gateway to push the boundaries of what can be achieved. As your trusted partner, we will unlock the true potential of your organization, elevating your flagship cigarettes to new heights. With an array of captivating flavors meticulously curated, our products redefine the essence of tobacco craftsmanship, offering a sensory journey like no other. Together, let's embark on a remarkable adventure that celebrates the artistry of tobacco and the allure of captivating flavors.</p>
+              </div>
+              <div class="col">
+                <img
+                  srcset="./images/studio-img-2.png"
+                  sizes="(min-width: 1024px) 30vw, 45vw"
+                  src="./images/studio-img-2.png"
+                  alt="intro-image"
+                  width="570"
+                  height="705"
+                  class="st__image--spread"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section id="services">
+            <div class="st__line"></div>
+            <h1 class="lg st__headline--spread">
+              Explore our portfolio
+            </h1>
+            
+            <div class="row">
+              <div class="col st__pin">
+                <h3>
+                  <span class="research"
+                    >Embrace the spirit of
+                    <span
+                      class="mask"
+                      data-attribute-text="Embrace the spirit of"
+                    ></span
+                  ></span>
+                  <span class="research"
+                    >picturesque landscapes via<span
+                      class="mask"
+                      data-attribute-text="picturesque landscapes via"
+                    ></span
+                  ></span>
+                  <span class="research"
+                    >a curated selection<span
+                      class="mask"
+                      data-attribute-text="a curated selection"
+                    ></span
+                  ></span>
+                  <span class="identity"
+                    >Elevating your senses with the<span
+                      class="mask"
+                      data-attribute-text="Elevating your senses with the"
+                    ></span
+                  ></span>
+                  <span class="identity"
+                    >essence of italian allure<span
+                      class="mask"
+                      data-attribute-text="essence of italian allure"
+                    ></span
+                  ></span>
+                  <span class="experience"
+                    >Experience Europe's culinary<span
+                      class="mask"
+                      data-attribute-text="Experience Europe's culinary"
+                    ></span
+                  ></span>
+                  <span class="experience"
+                    >diversity with our unparalleled<span
+                      class="mask"
+                      data-attribute-text="diversity with our unparalleled"
+                    ></span
+                  ></span>
+                  <span class="experience"
+                    >range of flavours and variations<span
+                      class="mask"
+                      data-attribute-text="range of flavours and variations"
+                    ></span
+                  ></span>
+                </h3>
+              </div>
+
+              <div class="col">
+                <div class="row__inner">
+                  <div class="col__inner st__text" id="strategy">
+                    <!-- <span>001</span> -->
+                    <div class="st__plax">
+                      <!-- <img
+                        srcset="
+                          https://d33wubrfki0l68.cloudfront.net/4d283ab29903d46d14d90ba86ba6bd3342cb79ab/c3544/assets/studio/studio__services--research.webp 463w
+                        "
+                        sizes="(min-width: 1024px) 24vw, 88vw"
+                        src="https://d33wubrfki0l68.cloudfront.net/4d283ab29903d46d14d90ba86ba6bd3342cb79ab/c3544/assets/studio/studio__services--research.webp"
+                        alt="services-image"
+                        width="463"
+                        height="576"
+                        class="st__plax--inner"
+                      /> -->
+                      <video
+                        class="promo cursor__hover"
+                        playsinline
+                        muted
+                        loop
+                        autoplay
+                      >
+                        <source src="./videos/studio-video-2.mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <a
+                      class="hover__headline --highlight cursor-pointer"
+                    >
+                      <h1 class="st__headline" id="identity">Milano</h1>
+                      <h1 id="identityMilano">explore</h1>
+                    </a>
+                    <p></p>
+                  </div>
+
+                  <div class="col__inner st__text" id="identity">
+                    <!-- <span>002</span> -->
+                    <div class="st__plax">
+                      <!-- <img
+                        srcset="
+                          https://d33wubrfki0l68.cloudfront.net/91060b6817c3a56059288ad1951c6783b5c5e48e/e4f9e/assets/studio/studio__services--identity.webp 463w
+                        "
+                        sizes="(min-width: 1024px) 24vw, 88vw"
+                        src="https://d33wubrfki0l68.cloudfront.net/91060b6817c3a56059288ad1951c6783b5c5e48e/e4f9e/assets/studio/studio__services--identity.webp"
+                        alt="services-image"
+                        width="463"
+                        height="576"
+                        class="st__plax--inner"
+                      /> -->
+                      <video
+                        class="promo cursor__hover"
+                        playsinline
+                        muted
+                        loop
+                        autoplay
+                      >
+                        <source src="./videos/studio-video-1.mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                      
+                    </div>
+                    <a
+                      class="hover__headline --highlight cursor-pointer"
+                    >
+                      <h1 class="st__headline" id="identity">Cavallo</h1>
+                      <h1 id="identityCavallo">explore</h1>
+                    </a>
+                    <p></p>
+                  </div>
+
+                  <div class="col__inner st__text" id="experience" style="margin-top: 150px">
+                    <!-- <span>003</span> -->
+                    <div class="st__plax">
+                      <!-- <img
+                        srcset="
+                          https://d33wubrfki0l68.cloudfront.net/c403a2d9eb831985b54b06a2e1b40fc872db0b1b/4d655/assets/studio/studio__services--experience.webp 463w
+                        "
+                        sizes="(min-width: 1024px) 24vw, 88vw"
+                        src="https://d33wubrfki0l68.cloudfront.net/c403a2d9eb831985b54b06a2e1b40fc872db0b1b/4d655/assets/studio/studio__services--experience.webp"
+                        alt="services-image"
+                        width="463"
+                        height="576"
+                        class="st__plax--inner"
+                      /> -->
+                      <video
+                        class="promo cursor__hover"
+                        playsinline
+                        muted
+                        loop
+                        autoplay
+                      >
+                        <source src="./videos/studio-video-3.mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <a
+                      class="hover__headline --highlight cursor-pointer"
+                    >
+                      <h1 class="st__headline" id="identity">Mond</h1>
+                      <h1 id="identityMond">explore</h1>
+                    </a>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section
+          id="testimonials"
+          class="cursor__hover egg-event"
+          data-attribute-text="next"
+          style="padding-top: 30px"
+        >
+          <aside class="label">
+            <!-- <span>Client Notes</span> -->
+          </aside>
+          <!-- <aside class="pagination">
+            <span
+              >(0<span class="display">
+                <span class="display__inner">1</span>
+                <span class="display__inner">2</span>
+                <span class="display__inner">3</span>
+                <span class="display__inner">4</span>
+                <span class="display__inner">5</span>
+              </span>
+              — 05)</span
+            >
+          </aside> -->
+
+          <div class="entry">
+            <div class="entry__excerpt">
+              <h4>"Our Mission"</h4>
+           
+            </div>
+
+            <div class="entry__thumbnail slider__egg swiper">
+              <div class="swiper-wrapper">
+                <img
+                  srcset="./images/Frame 6logo banner.png"
+                  sizes="235px"
+                  src="./images/Frame 6logo banner.png"
+                  alt="team-image"
+                  width="235"
+                  height="272"
+                  loading="lazy"
+                  class="swiper-slide"
+                />
+                <!-- <img
+                  srcset="
+                    https://d33wubrfki0l68.cloudfront.net/f04328165e48cd60fe767403e11aa4b6d20f2830/76cf1/assets/studio/testimonial__cruefilms.webp 235w
+                  "
+                  sizes="235px"
+                  src="https://d33wubrfki0l68.cloudfront.net/f04328165e48cd60fe767403e11aa4b6d20f2830/76cf1/assets/studio/testimonial__cruefilms.webp"
+                  alt="team-image"
+                  width="235"
+                  height="272"
+                  loading="lazy"
+                  class="swiper-slide"
+                />
+                <img
+                  srcset="
+                    https://d33wubrfki0l68.cloudfront.net/ff06f41093ebbd2e804b4010433f4aae3e107bd1/754d1/assets/studio/testimonial__finturity.webp 235w
+                  "
+                  sizes="235px"
+                  src="https://d33wubrfki0l68.cloudfront.net/ff06f41093ebbd2e804b4010433f4aae3e107bd1/754d1/assets/studio/testimonial__finturity.webp"
+                  alt="team-image"
+                  width="235"
+                  height="272"
+                  loading="lazy"
+                  class="swiper-slide"
+                />
+
+                <img
+                  srcset="
+                    https://d33wubrfki0l68.cloudfront.net/979040909c577b6839605c421675f89acbd1d078/cd4e2/assets/studio/testimonial__lumina.webp 235w
+                  "
+                  sizes="235px"
+                  src="https://d33wubrfki0l68.cloudfront.net/979040909c577b6839605c421675f89acbd1d078/cd4e2/assets/studio/testimonial__lumina.webp"
+                  alt="team-image"
+                  width="235"
+                  height="272"
+                  loading="lazy"
+                  class="swiper-slide"
+                />
+                <img
+                  srcset="
+                    https://d33wubrfki0l68.cloudfront.net/42459761770634dbccd716188fff0f47437d67e0/c4942/assets/studio/testimonial__fundingil.webp 235w
+                  "
+                  sizes="235px"
+                  src="https://d33wubrfki0l68.cloudfront.net/42459761770634dbccd716188fff0f47437d67e0/c4942/assets/studio/testimonial__fundingil.webp"
+                  alt="team-image"
+                  width="235"
+                  height="272"
+                  loading="lazy"
+                  class="swiper-slide"
+                /> -->
+              </div>
+            </div>
+            <div class="btn__small">
+              <p>Next</p>
+            </div>
+            <div class="entry__content">
+              <div class="entry__content--body">
+                <p>
+                  Our mission is to bring innovation and to conduct business across the world. We endeavour to achieve the best for all our stakeholders through continuous improvement and winning business strategies.
+                </p>
+                <p style="font-style: italic;">“My aim is to see our products wherever I go. I am working towards that in the right earnestness”</p>
+                <div class="credit">
+                  <p>Wahid Habibi</p>
+                  <p class="subtitle">CEO, Gulbahar Group</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <div class="st__line"></div>
+
+        </section>
+
+
+        <div class="footer-spacer bg__trigger footer-trigger" style="background: #55622b">
+          <footer style="background: #55622b">
+            <div class="grid">
+              <h1 class="st__headline headline__footer lg" style="color: white; cursor: pointer;" id="getInTouchWithUs">
+                Get in touch with us
+              </h1>
+              <a class="btn__circle GetInTouchText" href="/contact" style="background-color: white!important;">
+                <p>Get in Touch</p>
+              </a>
+              <h2 style="color: white">
+                Create an experience that’s as remarkable as your business.
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col">
+                <span style="color: white">Address</span>
+                <p style="color: white">Mod.447/448, R/A/ NO.13, JAFZA - Dubai</p>
+              </div>
+              <div class="col">
+                <span style="color: white">General Inquiries</span>
+                <a href="mailto:gti@gulbahartobacco.com" class="--highlight" style="color: white"
+                  >gti@gulbahartobacco.com</a
+                >
+              </div>
+
+              <div class="col">
+                <span style="color: white">Contact us</span>
+                <div class="row">
+                  <a
+                  href="tel:048814800"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="--highlight"
+                    style="color: white"
+                    >04 881 4800</a
+                  >
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="--highlight"
+                  ></a>
+                </div>
+              </div>
+
+              <div class="col copyright subtitle" style="color: white">
+                &copy;2023 GTI
+                <a class="--highlight" style="color: white">Privacy Policy</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </main>
+    </div>
+    <div class="page-transition"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#identityMond").on("click", function(e){
+            e.preventDefault();
+            window.open("./docs/Mond.pdf", '_blank');
+        });
+    });
+</script>
+<script>
+  $(document).ready(function(){
+      $("#identityMilano").on("click", function(e){
+          e.preventDefault();
+          window.open("./docs/Milano.pdf", '_blank');
+      });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $("#identityCavallo").on("click", function(e){
+          e.preventDefault();
+          window.open("./docs/Cavallo.pdf", '_blank');
+      });
+  });
+</script>
+<script>
+  document.getElementById("getInTouchWithUs").addEventListener("click", function() {
+    window.location.href = "contact.html";
+});
+</script>
+  </body>
+</html>
