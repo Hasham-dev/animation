@@ -1243,12 +1243,11 @@ nav {
   width: 100%;
   z-index: 10;
   text-transform: uppercase;
-  color: #fefcff;
+  color: #fefcff !important;
   font-family: SuisseIntl-Book-WebXL, sans-serif;
   font-size: calc(max(14px, 0.834vw));
-  /* transition: color 0.2s ease-out, height 0s ease-in-out,
-    background 0s ease-in-out;
-  mix-blend-mode: difference; */
+  background-color: #0f0d0d !important;
+  mix-blend-mode:normal !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1262,7 +1261,7 @@ nav {
   body.init__nav nav {
     height: 100%;
     background: #55622b!important;
-    mix-blend-mode: unset;
+    /* mix-blend-mode: unset; */
     transition: color 0.2s ease-out, height 0s ease-in-out,
       background 0s ease-in-out;
   }
@@ -15134,9 +15133,9 @@ body.init__testimonials section {
   body.init__nav nav {
     height: 100%;
     background: #55622b!important;
-    mix-blend-mode: unset;
+    /* mix-blend-mode: unset;
     transition: color 0.2s ease-out, height 0s ease-in-out,
-      background 0s ease-in-out;
+      background 0s ease-in-out; */
   }
 }
 
@@ -15189,7 +15188,7 @@ nav ul li:first-of-type {
     position: absolute;
     top: 0;
     left: 0;
-    transition: mix-blend-mode 0.2s ease-in-out;
+    /* transition: mix-blend-mode 0.2s ease-in-out; */
   }
 
   body.init__nav nav ul li:first-of-type {
