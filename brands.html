@@ -42,13 +42,13 @@
 
         <li
           class="nav-item cursor__hover --highlight"
-          data-attribute-item="home"
+          data-attribute-item="brands"
         >
           <a href="index.html"> Home</a>
         </li>
 
         <li
-          class="nav-item cursor__hover --highlight active"
+          class="nav-item cursor__hover --highlight"
           data-attribute-item="brands"
         >
           <a href="brands.html">Brands</a>
@@ -570,28 +570,27 @@
     <div class="page-transition"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-    $(document).ready(function(){
-        $("#identityMond").on("click", function(e){
-            e.preventDefault();
-            window.open("./docs/Mond.pdf", '_blank');
-        });
+  $(document).ready(function(){
+    $("#identityMond").on("click", function(e){
+        e.preventDefault();
+        openWindow("./docs/Mond.pdf");
     });
-</script>
-<script>
-  $(document).ready(function(){
-      $("#identityMilano").on("click", function(e){
-          e.preventDefault();
-          window.open("./docs/Milano.pdf", '_blank');
-      });
-  });
-</script>
-<script>
-  $(document).ready(function(){
-      $("#identityCavallo").on("click", function(e){
-          e.preventDefault();
-          window.open("./docs/Cavallo.pdf", '_blank');
-      });
-  });
+
+    $("#identityMilano").on("click", function(e){
+        e.preventDefault();
+        openWindow("./docs/Milano.pdf");
+    });
+
+    $("#identityCavallo").on("click", function(e){
+        e.preventDefault();
+        openWindow("./docs/Cavallo.pdf");
+    });
+
+    function openWindow(url) {
+        var newWindow = window.open(url, '_blank');
+        newWindow.opener = null; // Optional: Set the opener to null for better security
+    }
+});
 </script>
 <script>
   document.getElementById("getInTouchWithUs").addEventListener("click", function() {

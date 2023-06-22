@@ -25,6 +25,10 @@ html {
   }
 }
 
+img[alt='logo'] {
+  min-width: 60px;
+}
+
 body {
   -moz-hyphens: none;
   -ms-hyphens: none;
@@ -1242,9 +1246,9 @@ nav {
   color: #fefcff;
   font-family: SuisseIntl-Book-WebXL, sans-serif;
   font-size: calc(max(14px, 0.834vw));
-  transition: color 0.2s ease-out, height 0s ease-in-out,
+  /* transition: color 0.2s ease-out, height 0s ease-in-out,
     background 0s ease-in-out;
-  mix-blend-mode: difference;
+  mix-blend-mode: difference; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -5358,7 +5362,7 @@ body.bg__dark
   > .row
   .col:nth-child(1)
   h1 {
-  line-height: 1;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15118,21 +15122,6 @@ body.init__testimonials section {
   margin: 0 1vw;
 }
 
-nav {
-  position: fixed;
-  left: 0;
-  top: 0;
-  padding: 1rem 2rem;
-  width: 100%;
-  z-index: 10;
-  text-transform: uppercase;
-  color: #fefcff;
-  font-family: SuisseIntl-Book-WebXL, sans-serif;
-  font-size: calc(max(14px, 0.834vw));
-  transition: color 0.2s ease-out, height 0s ease-in-out,
-    background 0s ease-in-out;
-  mix-blend-mode: difference;
-}
 
 @media screen and (max-width: 1024px) {
   nav {
@@ -19245,7 +19234,7 @@ body.bg__dark
   > .row
   .col:nth-child(1)
   h1 {
-  line-height: 1;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 1024px) {
