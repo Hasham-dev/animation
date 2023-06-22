@@ -27,7 +27,7 @@ html {
 
 img[alt='logo'] {
   min-width: 70px;
-  height: 45px;
+  /* height: 45px; */
 }
 
 body {
@@ -1240,7 +1240,7 @@ nav {
   position: fixed;
   left: 0;
   top: 0;
-  padding: 1rem 2rem;
+  padding: 0.3rem 2rem;
   width: 100%;
   z-index: 10;
   text-transform: uppercase;
