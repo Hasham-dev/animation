@@ -28137,3 +28137,25 @@ body.bg__dark
 }
 
 
+
+
+.hover__headline>h1:nth-child(2) {
+color: yellow !important;
+mix-blend-mode: normal !important;
+}
+
+.hover__headline>h1:nth-child(2) {
+  color: yellow !important;
+}
+#smooth-wrapper[data-barba-namespace=home] #clients .collage .content .hover__headline {
+  z-index: 1;
+  cursor: pointer;
+  mix-blend-mode: normal !important;
+}
+
+
+.cursor {
+  mix-blend-mode: normal !important;
+  background-color: yellow !important;
+
+}
