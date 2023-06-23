@@ -823,6 +823,15 @@ body.bg__dark section .st__line {
   background: #fefcff;
 }
 
+#brand_body section {
+  color: #0f0d0d !important;
+  background: #fefcff !important;
+}
+
+#brand_body section .st__line {
+  background: #0f0d0d !important;
+}
+
 body.bg__light section {
   background: #fefcff;
   color: #0f0d0d;
@@ -14697,10 +14706,7 @@ section {
   color: #0f0d0d;
 }
 
-body.bg__dark section {
-  background: #0f0d0d;
-  color: #fefcff;
-}
+
 
 body.bg__dark section .st__line {
   background: #fefcff;
@@ -17832,7 +17838,7 @@ body.init__clients
 
 #smooth-wrapper[data-barba-namespace="studio"] #intro > h1 {
   text-align: center;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28158,4 +28164,11 @@ mix-blend-mode: normal !important;
   mix-blend-mode: normal !important;
   background-color: yellow !important;
 
+}
+
+#form form .input-wrapper #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) span span .mask::before, #form form .input-wrapper:last-of-type #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) label span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(1) .col:nth-child(2) form label.for-textarea textarea span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(2) form label.for-textarea .col:nth-child(1) textarea span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) #form form .input-wrapper span span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) #form form .input-wrapper:last-of-type label span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) h3 span .mask::before {
+  content: attr(data-attribute-text);
+  white-space: nowrap;
+  position: absolute;
+  color: green !important;
 }
