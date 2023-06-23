@@ -450,7 +450,7 @@ h1.xl {
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -486,7 +486,7 @@ h2 {
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -508,7 +508,7 @@ h3 {
     form
     label.for-textarea
     textarea,
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(1)
@@ -751,6 +751,7 @@ body.bg__dark .btn__circle.active {
   background: #55622b!important;
   color: #0f0d0d;
   border-radius: 100px;
+  white-space: nowrap;
   padding: 0.5em 3em;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -936,7 +937,7 @@ body.init__testimonials section {
   .pin__sticky
   .minor
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -1838,7 +1839,7 @@ footer.next-project {
 #form
   form
   .input-wrapper.active
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -1866,7 +1867,7 @@ footer.next-project {
   label.for-textarea
   .input-wrapper.active
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -2445,7 +2446,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .inner.answer
   p
   a,
-#smooth-wrapper[data-barba-namespace="landing"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"][data-barba-namespace="home"]
   #work
   .card-container
   .card
@@ -2456,7 +2457,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
   #services
   .row
   .col:nth-child(1)
@@ -2466,7 +2467,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="studio"][data-barba-namespace="home"]
   #work
   .card-container
   .card
@@ -2553,7 +2554,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
   #work
   .card-container
   .card
@@ -3194,7 +3195,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .inner
   .wrapper
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
   #clients
   .container__inner
   .inner
@@ -3204,7 +3205,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
   #services
   .row
   .col:nth-child(1)
@@ -3282,7 +3283,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
     .inner
     .wrapper
     h3,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="home"]
     #clients
     .container__inner
     .inner
@@ -3292,7 +3293,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="home"]
     #services
     .row
     .col:nth-child(1)
@@ -3821,7 +3822,7 @@ body.init__clients
   #banner
   aside.label
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside.label p {
+  #smooth-wrapper[data-barba-namespace="studio"] #banner aside.label p {
   font-family: PPMori-Regular, sans-serif;
 }
 
@@ -3848,12 +3849,12 @@ body.init__clients
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner .container h1 {
+#smooth-wrapper #banner .container h1 {
   text-align: center;
   color: #fefcff;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h1
@@ -3863,7 +3864,7 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #banner
     .container
     h1
@@ -3936,7 +3937,7 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner img {
+  #smooth-wrapper #banner img {
     width: 23vw;
     margin-top: 0;
     margin-left: calc(max(-6rem, -15vw));
@@ -3947,7 +3948,7 @@ body.init__clients
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #full-image {
+#smooth-wrapper #full-image {
   height: 120vh;
   min-height: 900px;
 }
@@ -4080,7 +4081,7 @@ body.init__clients
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
   padding: 0 7vw;
 }
 
@@ -4157,7 +4158,7 @@ body.init__clients
     .inner.answer
     p
     span,
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+  #smooth-wrapper #intro .row .col p {
     padding: 0 4vw;
   }
 }
@@ -4235,7 +4236,7 @@ body.init__clients
     .inner.answer
     p
     span,
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+    #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
     padding: 0 1.5rem;
   }
 }
@@ -4295,7 +4296,7 @@ body.init__clients
 }
 
 body.bg__dark
-  #smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1) {
@@ -4305,7 +4306,7 @@ body.bg__dark
 #form
   form
   .input-wrapper
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]r
   #services
   .row
   .col:nth-child(1)
@@ -4340,7 +4341,7 @@ body.bg__dark
   .col:nth-child(1)
   textarea
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4349,7 +4350,7 @@ body.bg__dark
   .input-wrapper
   span
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4358,7 +4359,7 @@ body.bg__dark
   .input-wrapper:last-of-type
   label
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4412,7 +4413,7 @@ body.bg__dark
   textarea
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4422,7 +4423,7 @@ body.bg__dark
   span
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4432,7 +4433,7 @@ body.bg__dark
   label
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4492,7 +4493,7 @@ body.bg__dark
   textarea
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -4502,7 +4503,7 @@ body.bg__dark
   span
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -4512,7 +4513,7 @@ body.bg__dark
   label
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper[data-barba-namespace="studio"]
   #services
   .row
   .col:nth-child(1)
@@ -4652,23 +4653,23 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials {
+#smooth-wrapper #testimonials {
   padding: 16vw 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials {
+  #smooth-wrapper #testimonials {
     padding: 8rem 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside {
+#smooth-wrapper #testimonials aside {
   position: absolute;
   white-space: nowrap;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials aside {
+  #smooth-wrapper #testimonials aside {
     position: static;
     transform: unset !important;
     margin-bottom: 0.2rem;
@@ -4676,7 +4677,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.label {
+#smooth-wrapper #testimonials aside.label {
   left: 2rem;
   top: 50%;
   transform: translate(-50%, calc(-50% - 0.5px)) rotate(-90deg);
@@ -4736,24 +4737,24 @@ body.bg__dark
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.label p {
+#smooth-wrapper #testimonials aside.label p {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.pagination {
+#smooth-wrapper #testimonials aside.pagination {
   right: 2rem;
   top: 50%;
   transform: translate(50%, calc(-50% - 0.5px)) rotate(90deg);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   span {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display {
@@ -4766,7 +4767,7 @@ body.bg__dark
   vertical-align: text-bottom;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display__inner {
@@ -4775,7 +4776,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     aside.pagination
     .display__inner {
@@ -4784,7 +4785,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 375px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     aside.pagination
     .display__inner {
@@ -4792,7 +4793,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display__inner:not(:first-of-type) {
@@ -4802,7 +4803,7 @@ body.bg__dark
   transform: translate(0, 100%);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry {
+#smooth-wrapper #testimonials .entry {
   width: 75vw;
   display: grid;
   margin: 0 auto;
@@ -4812,7 +4813,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry {
+  #smooth-wrapper #testimonials .entry {
     margin-top: 1.5rem;
     width: 100%;
     gap: 1.5rem;
@@ -4821,21 +4822,21 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__excerpt,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__thumbnail {
+#smooth-wrapper #testimonials .entry__content,
+#smooth-wrapper #testimonials .entry__excerpt,
+#smooth-wrapper #testimonials .entry__thumbnail {
   position: relative;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content
   > :not(:first-child),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   > :not(:first-child),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__thumbnail
   > :not(:first-child) {
@@ -4846,46 +4847,46 @@ body.bg__dark
   right: 0;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__excerpt {
+#smooth-wrapper #testimonials .entry__excerpt {
   grid-area: excerpt;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:not(:first-child) {
   transform: translateY(0.5rem);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:nth-child(1) {
   padding: 0 9.5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:nth-child(2) {
   padding: 0 5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:nth-child(3) {
   padding: 0 5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:nth-child(4) {
   padding: 0 7vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h1:nth-child(5) {
@@ -4893,7 +4894,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__excerpt
     h1 {
@@ -4902,14 +4903,14 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__thumbnail {
+#smooth-wrapper #testimonials .entry__thumbnail {
   grid-area: thumbnail;
   width: 14vw;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__thumbnail {
     width: 40vw;
@@ -4917,18 +4918,18 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content {
+#smooth-wrapper #testimonials .entry__content {
   grid-area: content;
   width: 45vw;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content {
+  #smooth-wrapper #testimonials .entry__content {
     width: 100%;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__content
     > :not(:nth-child(1)):not(:nth-child(2)) {
@@ -4994,21 +4995,21 @@ body.bg__dark
   p
   .entry__content--body
   > span:not(:first-of-type),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   > p:not(:first-of-type) {
   margin-top: 1rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   .credit {
   margin-top: 1rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   .credit
@@ -5016,7 +5017,7 @@ body.bg__dark
   margin-bottom: 0.2rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry
   .btn__small {
@@ -5025,7 +5026,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry
     .btn__small {
@@ -5036,12 +5037,12 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team {
+#smooth-wrapper #team {
   margin-top: -1px;
   overflow: hidden;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container {
+#smooth-wrapper #team .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -5050,26 +5051,26 @@ body.bg__dark
 }
 
 @media (hover: none) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container {
+  #smooth-wrapper #team .container {
     height: auto !important;
     padding: 4rem 0;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container header {
+#smooth-wrapper #team .container header {
   padding: 0 6vw;
   justify-content: space-between;
   align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container header {
+  #smooth-wrapper #team .container header {
     flex-direction: row;
     padding: 0 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -5081,7 +5082,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     header
@@ -5091,7 +5092,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -5105,7 +5106,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     header
@@ -5115,7 +5116,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -5131,7 +5132,7 @@ body.bg__dark
   overflow: hidden;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -5146,19 +5147,19 @@ body.bg__dark
   width: 0%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+#smooth-wrapper #team .container .row {
   margin: 4vh 0 0;
   padding: 0 6vw;
   flex-shrink: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+  #smooth-wrapper #team .container .row {
     padding: 0 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row:nth-child(1) {
@@ -5166,7 +5167,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     .row:nth-child(1) {
@@ -5176,30 +5177,30 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+  #smooth-wrapper #team .container .row {
     flex-direction: row;
     overflow-x: auto;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row h1 {
+  #smooth-wrapper #team .container .row h1 {
     margin-bottom: 0.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container .row .col {
+#smooth-wrapper #team .container .row .col {
   width: 49vh;
   flex-shrink: 0;
   padding-right: 3vw;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row .col {
+  #smooth-wrapper #team .container .row .col {
     width: 80%;
     max-width: 20rem;
     padding-right: 0;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     .row
@@ -5208,7 +5209,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -5219,7 +5220,7 @@ body.bg__dark
   align-items: flex-start;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -5229,7 +5230,7 @@ body.bg__dark
   width: 100%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -5243,7 +5244,7 @@ body.bg__dark
   filter: blur(10px);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -6030,7 +6031,7 @@ body.bg__dark
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="work"]
+#smooth-wrapper[data-barba-namespace="work"]
   #services
   .row
   .col:nth-child(1)
@@ -6040,7 +6041,7 @@ body.bg__dark
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="work"]
+#smooth-wrapper[data-barba-namespace="work"]
   #work
   .card-container
   .card
@@ -6936,7 +6937,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].mgny #sec__003 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__003
   #services
   .row
@@ -6944,7 +6945,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__003
   #services
   .row
@@ -6952,7 +6953,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__003
   .row
@@ -6960,7 +6961,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__003
   .row
@@ -7216,7 +7217,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].mgny #sec__005 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__005
   #services
   .row
@@ -7224,7 +7225,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__005
   #services
   .row
@@ -7232,7 +7233,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__005
   .row
@@ -7240,7 +7241,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__005
   .row
@@ -7492,7 +7493,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__003
   #services
   .row
@@ -7500,7 +7501,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__003
   #services
   .row
@@ -7508,7 +7509,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__003
   .row
@@ -7516,7 +7517,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__003
   .row
@@ -7786,7 +7787,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__005
   #services
   .row
@@ -7794,7 +7795,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__005
   #services
   .row
@@ -7802,7 +7803,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__005
   .row
@@ -7810,7 +7811,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__005
   .row
@@ -8191,7 +8192,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #sec__003
   #services
   .row
@@ -8199,7 +8200,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #sec__003
   #services
   .row
@@ -8207,7 +8208,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #services
   #sec__003
   .row
@@ -8215,7 +8216,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #services
   #sec__003
   .row
@@ -8618,7 +8619,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].amparo #sec__003 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #sec__003
   #services
   .row
@@ -8626,7 +8627,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #sec__003
   #services
   .row
@@ -8634,7 +8635,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #services
   #sec__003
   .row
@@ -8642,7 +8643,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #services
   #sec__003
   .row
@@ -12923,7 +12924,7 @@ body:not(.intro-leave)
   .row
   .col.content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   #smooth-content.mkt
   #banner
@@ -12932,7 +12933,7 @@ body:not(.intro-leave)
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   #smooth-content.mkt
   #banner
@@ -12941,7 +12942,7 @@ body:not(.intro-leave)
   h3
   .col.content
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #banner
   #services
@@ -12950,7 +12951,7 @@ body:not(.intro-leave)
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #banner
   #services
@@ -13025,7 +13026,7 @@ body:not(.intro-leave)
     .row
     .col.content
     h3,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #services
     #smooth-content.mkt
     #banner
@@ -13034,7 +13035,7 @@ body:not(.intro-leave)
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #services
     #smooth-content.mkt
     #banner
@@ -13043,7 +13044,7 @@ body:not(.intro-leave)
     h3
     .col.content
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #smooth-content.mkt
     #banner
     #services
@@ -13052,7 +13053,7 @@ body:not(.intro-leave)
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #smooth-content.mkt
     #banner
     #services
@@ -13253,7 +13254,7 @@ body:not(.intro-leave)
   .col
   .content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row
@@ -13261,7 +13262,7 @@ body:not(.intro-leave)
   .content
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row
@@ -13415,7 +13416,7 @@ body:not(.intro-leave)
   .row.industries
   .col:nth-child(3)
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row.industries
@@ -13423,7 +13424,7 @@ body:not(.intro-leave)
   h3
   .col:nth-child(3)
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row.industries
@@ -13782,7 +13783,7 @@ body:not(.intro-leave)
   .swiper-slide
   .content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   .row
   .col:nth-child(1)
@@ -13794,7 +13795,7 @@ body:not(.intro-leave)
   .swiper-slide
   .content
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #featured
   .slider__draggable
@@ -14345,7 +14346,7 @@ h4.xl {
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -14378,7 +14379,7 @@ h2 {
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -14400,7 +14401,7 @@ h3 {
     form
     label.for-textarea
     textarea,
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(1)
@@ -14818,7 +14819,7 @@ body.init__testimonials section {
   .pin__sticky
   .minor
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -14839,7 +14840,7 @@ body.init__testimonials section {
   textarea,
 .pin__sticky
   .minor
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -15707,7 +15708,7 @@ footer.next-project {
 #form
   form
   .input-wrapper.active
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -15735,7 +15736,7 @@ footer.next-project {
   label.for-textarea
   .input-wrapper.active
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -16325,7 +16326,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #services
   .row
   .col:nth-child(1)
@@ -16335,7 +16336,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #work
   .card-container
   .card
@@ -16412,7 +16413,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .card
   .card-info
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #services
   .row
   .col:nth-child(1)
@@ -16422,7 +16423,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #work
   .card-container
   .card
@@ -17063,7 +17064,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .inner
   .wrapper
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #clients
   .container__inner
   .inner
@@ -17073,7 +17074,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+#smooth-wrapper[data-barba-namespace="home"]
   #services
   .row
   .col:nth-child(1)
@@ -17151,7 +17152,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
     .inner
     .wrapper
     h3,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="home"]
     #clients
     .container__inner
     .inner
@@ -17161,7 +17162,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="home"]
+  #smooth-wrapper[data-barba-namespace="home"]
     #services
     .row
     .col:nth-child(1)
@@ -17592,11 +17593,11 @@ body.init__clients
   transform: translate(0, 0);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #smooth-content {
+#smooth-wrapper #smooth-content {
   overflow-x: hidden !important;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner {
+#smooth-wrapper #banner {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17606,31 +17607,31 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner {
+  #smooth-wrapper #banner {
     height: auto;
   }
 }
 
 @media screen and (max-width: 1024px) and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner {
+  #smooth-wrapper #banner {
     padding: calc(calc(12rem + calc(max(52px, 3.125vw)))) 0 12rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside {
+#smooth-wrapper #banner aside {
   position: absolute;
   white-space: nowrap;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner aside {
+  #smooth-wrapper #banner aside {
     position: static;
     transform: unset !important;
     margin-bottom: 0.2rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside.label {
+#smooth-wrapper #banner aside.label {
   left: 2rem;
   top: 50%;
   transform: translate(-50%, calc(-50% - 0.5px)) rotate(-90deg);
@@ -17690,39 +17691,39 @@ body.init__clients
   #banner
   aside.label
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside.label p {
+#smooth-wrapper #banner aside.label p {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside.est {
+#smooth-wrapper #banner aside.est {
   right: 2rem;
   top: 50%;
   transform: translate(50%, calc(-50% - 0.5px)) rotate(90deg);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner aside.est span {
+#smooth-wrapper #banner aside.est span {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner .container {
+#smooth-wrapper #banner .container {
   mix-blend-mode: difference;
   z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner .container {
+  #smooth-wrapper #banner .container {
     width: 100%;
     margin-top: 2rem;
     overflow: hidden;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner .container h4 {
+#smooth-wrapper #banner .container h4 {
   text-align: center;
   color: #fefcff;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4
@@ -17732,7 +17733,7 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #banner
     .container
     h4
@@ -17741,28 +17742,28 @@ body.init__clients
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:not(:first-of-type) {
   margin-top: -0.1em;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:last-of-type {
   margin-top: -0.2em;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:nth-child(1) {
   transform: translateX(-9vw);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:nth-child(2) {
@@ -17770,7 +17771,7 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #banner
     .container
     h4:nth-child(2) {
@@ -17778,14 +17779,14 @@ body.init__clients
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:nth-child(3) {
   transform: translateX(-15vw);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #banner
   .container
   h4:nth-child(4) {
@@ -17793,19 +17794,19 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner .pin-spacer {
+  #smooth-wrapper #banner .pin-spacer {
     margin: 0 !important;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #banner img {
+#smooth-wrapper #banner img {
   position: absolute;
   width: 13vw;
   margin-top: 5vw;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #banner img {
+  #smooth-wrapper #banner img {
     width: 23vw;
     margin-top: 0;
     margin-left: calc(max(-6rem, -15vw));
@@ -17816,39 +17817,39 @@ body.init__clients
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #full-image {
+#smooth-wrapper #full-image {
   height: 120vh;
   min-height: 900px;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #full-image img {
+#smooth-wrapper #full-image img {
   object-position: 100% 50%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #intro {
+#smooth-wrapper #intro {
   padding: 8vw 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #intro {
+  #smooth-wrapper #intro {
     padding: 6rem 0;
     overflow: hidden;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #intro > h1 {
+#smooth-wrapper #intro > h1 {
   text-align: center;
   line-height: 1.2;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #intro > h1 {
+  #smooth-wrapper #intro > h1 {
     max-width: 40rem;
     margin: 0 auto;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #intro .row {
+#smooth-wrapper[data-barba-namespace="studio"] #intro .row{
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -17856,23 +17857,23 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row {
+  #smooth-wrapper #intro .row {
     flex-direction: row;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #intro .row .col {
+#smooth-wrapper #intro .row .col {
   width: 30vw;
   flex-shrink: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col {
+  #smooth-wrapper #intro .row .col {
     width: 50vw;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col:nth-child(1),
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col:nth-child(3) {
+  #smooth-wrapper #intro .row .col:nth-child(1),
+  #smooth-wrapper #intro .row .col:nth-child(3) {
     width: 50vw;
   }
 }
@@ -17949,7 +17950,7 @@ body.init__clients
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+#smooth-wrapper #intro .row .col p {
   padding: 0 7vw;
 }
 
@@ -18026,7 +18027,7 @@ body.init__clients
     .inner.answer
     p
     span,
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+  #smooth-wrapper #intro .row .col p {
     padding: 0 4vw;
   }
 }
@@ -18104,47 +18105,47 @@ body.init__clients
     .inner.answer
     p
     span,
-  #smooth-wrapper[data-barba-namespace="studio"] #intro .row .col p {
+  #smooth-wrapper #intro .row .col p {
     padding: 0 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #intro .row .col img {
+#smooth-wrapper #intro .row .col img {
   width: 100%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #services {
+#smooth-wrapper #services {
   padding: 8vw 0;
   margin-top: -1px;
   position: relative;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #services {
+  #smooth-wrapper #services {
     padding: 6rem 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #services > h1 {
+  #smooth-wrapper #services > h1 {
     max-width: 40rem;
     margin: 0 auto;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #services .row {
+#smooth-wrapper #services .row {
   padding: 8vw 6vw 0;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #services .row {
+  #smooth-wrapper #services .row {
     overflow-x: auto;
     padding: 4rem 1.5rem 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1) {
@@ -18155,7 +18156,7 @@ body.init__clients
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(1) {
@@ -18164,7 +18165,7 @@ body.init__clients
 }
 
 body.bg__dark
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1) {
@@ -18174,7 +18175,7 @@ body.bg__dark
 #form
   form
   .input-wrapper
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18183,7 +18184,7 @@ body.bg__dark
 #form
   form
   .input-wrapper:last-of-type
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18209,7 +18210,7 @@ body.bg__dark
   .col:nth-child(1)
   textarea
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18218,7 +18219,7 @@ body.bg__dark
   .input-wrapper
   span
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18227,7 +18228,7 @@ body.bg__dark
   .input-wrapper:last-of-type
   label
   span,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18242,7 +18243,7 @@ body.bg__dark
 #form
   form
   .input-wrapper
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18252,7 +18253,7 @@ body.bg__dark
 #form
   form
   .input-wrapper:last-of-type
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18281,7 +18282,7 @@ body.bg__dark
   textarea
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18291,7 +18292,7 @@ body.bg__dark
   span
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18301,7 +18302,7 @@ body.bg__dark
   label
   span
   .mask,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18322,7 +18323,7 @@ body.bg__dark
 #form
   form
   .input-wrapper
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18332,7 +18333,7 @@ body.bg__dark
 #form
   form
   .input-wrapper:last-of-type
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18361,7 +18362,7 @@ body.bg__dark
   textarea
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18371,7 +18372,7 @@ body.bg__dark
   span
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18381,7 +18382,7 @@ body.bg__dark
   label
   span
   .mask::before,
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(1)
@@ -18394,7 +18395,7 @@ body.bg__dark
   color: #fefcff;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2) {
@@ -18403,7 +18404,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(2) {
@@ -18411,7 +18412,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18423,7 +18424,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(2)
@@ -18432,7 +18433,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18445,7 +18446,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(2)
@@ -18458,7 +18459,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18468,7 +18469,7 @@ body.bg__dark
   width: 100%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18478,7 +18479,7 @@ body.bg__dark
   margin-bottom: 0.2rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18490,7 +18491,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(2)
@@ -18501,7 +18502,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #services
   .row
   .col:nth-child(2)
@@ -18511,7 +18512,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #services
     .row
     .col:nth-child(2)
@@ -18521,23 +18522,23 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials {
+#smooth-wrapper #testimonials {
   padding: 16vw 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials {
+  #smooth-wrapper #testimonials {
     padding: 8rem 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside {
+#smooth-wrapper #testimonials aside {
   position: absolute;
   white-space: nowrap;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials aside {
+  #smooth-wrapper #testimonials aside {
     position: static;
     transform: unset !important;
     margin-bottom: 0.2rem;
@@ -18545,7 +18546,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.label {
+#smooth-wrapper #testimonials aside.label {
   left: 2rem;
   top: 50%;
   transform: translate(-50%, calc(-50% - 0.5px)) rotate(-90deg);
@@ -18605,24 +18606,24 @@ body.bg__dark
   .inner.answer
   p
   span,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.label p {
+#smooth-wrapper #testimonials aside.label p {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials aside.pagination {
+#smooth-wrapper #testimonials aside.pagination {
   right: 2rem;
   top: 50%;
   transform: translate(50%, calc(-50% - 0.5px)) rotate(90deg);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   span {
   font-family: PPMori-Regular, sans-serif;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display {
@@ -18635,7 +18636,7 @@ body.bg__dark
   vertical-align: text-bottom;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display__inner {
@@ -18644,7 +18645,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     aside.pagination
     .display__inner {
@@ -18653,7 +18654,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 375px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     aside.pagination
     .display__inner {
@@ -18661,7 +18662,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   aside.pagination
   .display__inner:not(:first-of-type) {
@@ -18671,7 +18672,7 @@ body.bg__dark
   transform: translate(0, 100%);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry {
+#smooth-wrapper #testimonials .entry {
   width: 75vw;
   display: grid;
   margin: 0 auto;
@@ -18681,7 +18682,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry {
+  #smooth-wrapper #testimonials .entry {
     margin-top: 1.5rem;
     width: 100%;
     gap: 1.5rem;
@@ -18690,21 +18691,21 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__excerpt,
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__thumbnail {
+#smooth-wrapper #testimonials .entry__content,
+#smooth-wrapper #testimonials .entry__excerpt,
+#smooth-wrapper #testimonials .entry__thumbnail {
   position: relative;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content
   > :not(:first-child),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   > :not(:first-child),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__thumbnail
   > :not(:first-child) {
@@ -18715,46 +18716,46 @@ body.bg__dark
   right: 0;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__excerpt {
+#smooth-wrapper #testimonials .entry__excerpt {
   grid-area: excerpt;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:not(:first-child) {
   transform: translateY(0.5rem);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:nth-child(1) {
   padding: 0 9.5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:nth-child(2) {
   padding: 0 5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:nth-child(3) {
   padding: 0 5vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:nth-child(4) {
   padding: 0 7vw;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__excerpt
   h4:nth-child(5) {
@@ -18762,7 +18763,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__excerpt
     h4 {
@@ -18771,14 +18772,14 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__thumbnail {
+#smooth-wrapper #testimonials .entry__thumbnail {
   grid-area: thumbnail;
   width: 14vw;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__thumbnail {
     width: 40vw;
@@ -18786,18 +18787,18 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content {
+#smooth-wrapper #testimonials .entry__content {
   grid-area: content;
   width: 45vw;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #testimonials .entry__content {
+  #smooth-wrapper #testimonials .entry__content {
     width: 100%;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry__content
     > :not(:nth-child(1)):not(:nth-child(2)) {
@@ -18863,21 +18864,21 @@ body.bg__dark
   p
   .entry__content--body
   > span:not(:first-of-type),
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   > p:not(:first-of-type) {
   margin-top: 1rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   .credit {
   margin-top: 1rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry__content--body
   .credit
@@ -18885,7 +18886,7 @@ body.bg__dark
   margin-bottom: 0.2rem;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #testimonials
   .entry
   .btn__small {
@@ -18894,7 +18895,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #testimonials
     .entry
     .btn__small {
@@ -18905,12 +18906,12 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team {
+#smooth-wrapper #team {
   margin-top: -1px;
   overflow: hidden;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container {
+#smooth-wrapper #team .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18919,26 +18920,26 @@ body.bg__dark
 }
 
 @media (hover: none) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container {
+  #smooth-wrapper #team .container {
     height: auto !important;
     padding: 4rem 0;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container header {
+#smooth-wrapper #team .container header {
   padding: 0 6vw;
   justify-content: space-between;
   align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container header {
+  #smooth-wrapper #team .container header {
     flex-direction: row;
     padding: 0 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -18950,7 +18951,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     header
@@ -18960,7 +18961,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -18974,7 +18975,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     header
@@ -18984,7 +18985,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -19000,7 +19001,7 @@ body.bg__dark
   overflow: hidden;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   header
@@ -19015,19 +19016,19 @@ body.bg__dark
   width: 0%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+#smooth-wrapper #team .container .row {
   margin: 4vh 0 0;
   padding: 0 6vw;
   flex-shrink: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+  #smooth-wrapper #team .container .row {
     padding: 0 1.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row:nth-child(1) {
@@ -19035,7 +19036,7 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     .row:nth-child(1) {
@@ -19045,30 +19046,30 @@ body.bg__dark
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row {
+  #smooth-wrapper #team .container .row {
     flex-direction: row;
     overflow-x: auto;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row h4 {
+  #smooth-wrapper #team .container .row h4 {
     margin-bottom: 0.5rem;
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"] #team .container .row .col {
+#smooth-wrapper #team .container .row .col {
   width: 49vh;
   flex-shrink: 0;
   padding-right: 3vw;
 }
 
 @media screen and (max-width: 1024px) {
-  #smooth-wrapper[data-barba-namespace="studio"] #team .container .row .col {
+  #smooth-wrapper #team .container .row .col {
     width: 80%;
     max-width: 20rem;
     padding-right: 0;
   }
 
-  #smooth-wrapper[data-barba-namespace="studio"]
+  #smooth-wrapper
     #team
     .container
     .row
@@ -19077,7 +19078,7 @@ body.bg__dark
   }
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -19088,7 +19089,7 @@ body.bg__dark
   align-items: flex-start;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -19098,7 +19099,7 @@ body.bg__dark
   width: 100%;
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -19112,7 +19113,7 @@ body.bg__dark
   filter: blur(10px);
 }
 
-#smooth-wrapper[data-barba-namespace="studio"]
+#smooth-wrapper
   #team
   .container
   .row
@@ -19899,7 +19900,7 @@ body.bg__dark
   form
   label.for-textarea
   textarea,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="work"]
+#smooth-wrapper[data-barba-namespace="work"]
   #services
   .row
   .col:nth-child(1)
@@ -19909,7 +19910,7 @@ body.bg__dark
   .card
   .card-info
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="work"]
+#smooth-wrapper[data-barba-namespace="work"]
   #work
   .card-container
   .card
@@ -20806,7 +20807,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].mgny #sec__003 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__003
   #services
   .row
@@ -20814,7 +20815,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__003
   #services
   .row
@@ -20822,7 +20823,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__003
   .row
@@ -20830,7 +20831,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__003
   .row
@@ -21086,7 +21087,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].mgny #sec__005 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__005
   #services
   .row
@@ -21094,7 +21095,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #sec__005
   #services
   .row
@@ -21102,7 +21103,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__005
   .row
@@ -21110,7 +21111,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].mgny
+#smooth-wrapper[data-barba-namespace="project"].mgny
   #services
   #sec__005
   .row
@@ -21362,7 +21363,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__003
   #services
   .row
@@ -21370,7 +21371,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__003
   #services
   .row
@@ -21378,7 +21379,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__003
   .row
@@ -21386,7 +21387,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__003
   .row
@@ -21656,7 +21657,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__005
   #services
   .row
@@ -21664,7 +21665,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #sec__005
   #services
   .row
@@ -21672,7 +21673,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__005
   .row
@@ -21680,7 +21681,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].finturity
+#smooth-wrapper[data-barba-namespace="project"].finturity
   #services
   #sec__005
   .row
@@ -22061,7 +22062,7 @@ body.intro-leave
   .row
   .minor
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #sec__003
   #services
   .row
@@ -22069,7 +22070,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #sec__003
   #services
   .row
@@ -22077,7 +22078,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #services
   #sec__003
   .row
@@ -22085,7 +22086,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].cruefilms
+#smooth-wrapper[data-barba-namespace="project"].cruefilms
   #services
   #sec__003
   .row
@@ -22488,7 +22489,7 @@ body.intro-leave
   .input-wrapper:last-of-type
   label,
 #smooth-wrapper[data-barba-namespace="project"].amparo #sec__003 .row .minor h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #sec__003
   #services
   .row
@@ -22496,7 +22497,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #sec__003
   #services
   .row
@@ -22504,7 +22505,7 @@ body.intro-leave
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #services
   #sec__003
   .row
@@ -22512,7 +22513,7 @@ body.intro-leave
   h3
   .minor
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="project"].amparo
+#smooth-wrapper[data-barba-namespace="project"].amparo
   #services
   #sec__003
   .row
@@ -26808,7 +26809,7 @@ body:not(.intro-leave)
   .row
   .col.content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   #smooth-content.mkt
   #banner
@@ -26817,7 +26818,7 @@ body:not(.intro-leave)
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   #smooth-content.mkt
   #banner
@@ -26826,7 +26827,7 @@ body:not(.intro-leave)
   h3
   .col.content
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #banner
   #services
@@ -26835,7 +26836,7 @@ body:not(.intro-leave)
   .col:nth-child(1)
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #banner
   #services
@@ -26910,7 +26911,7 @@ body:not(.intro-leave)
     .row
     .col.content
     h3,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #services
     #smooth-content.mkt
     #banner
@@ -26919,7 +26920,7 @@ body:not(.intro-leave)
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #services
     #smooth-content.mkt
     #banner
@@ -26928,7 +26929,7 @@ body:not(.intro-leave)
     h3
     .col.content
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #smooth-content.mkt
     #banner
     #services
@@ -26937,7 +26938,7 @@ body:not(.intro-leave)
     .col:nth-child(1)
     h3
     span,
-  #smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+  #smooth-wrapper[data-barba-namespace="landing"]
     #smooth-content.mkt
     #banner
     #services
@@ -27138,7 +27139,7 @@ body:not(.intro-leave)
   .col
   .content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row
@@ -27146,7 +27147,7 @@ body:not(.intro-leave)
   .content
   h3
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row
@@ -27300,7 +27301,7 @@ body:not(.intro-leave)
   .row.industries
   .col:nth-child(3)
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row.industries
@@ -27308,7 +27309,7 @@ body:not(.intro-leave)
   h3
   .col:nth-child(3)
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #services
   .row.industries
@@ -27667,7 +27668,7 @@ body:not(.intro-leave)
   .swiper-slide
   .content
   h3,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #services
   .row
   .col:nth-child(1)
@@ -27679,7 +27680,7 @@ body:not(.intro-leave)
   .swiper-slide
   .content
   span,
-#smooth-wrapper[data-barba-namespace="studio"][data-barba-namespace="landing"]
+#smooth-wrapper[data-barba-namespace="landing"]
   #smooth-content.mkt
   #featured
   .slider__draggable
@@ -28166,7 +28167,7 @@ mix-blend-mode: normal !important;
 
 }
 
-#form form .input-wrapper #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) span span .mask::before, #form form .input-wrapper:last-of-type #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) label span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(1) .col:nth-child(2) form label.for-textarea textarea span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(2) form label.for-textarea .col:nth-child(1) textarea span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) #form form .input-wrapper span span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) #form form .input-wrapper:last-of-type label span .mask::before, #smooth-wrapper[data-barba-namespace="studio"] #services .row .col:nth-child(1) h3 span .mask::before {
+#form form .input-wrapper #smooth-wrapper #services .row .col:nth-child(1) span span .mask::before, #form form .input-wrapper:last-of-type #smooth-wrapper #services .row .col:nth-child(1) label span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(1) .col:nth-child(2) form label.for-textarea textarea span .mask::before, #smooth-wrapper[data-barba-namespace="contact"][data-barba-namespace="studio"] #services #main > .row .col:nth-child(2) form label.for-textarea .col:nth-child(1) textarea span .mask::before, #smooth-wrapper #services .row .col:nth-child(1) #form form .input-wrapper span span .mask::before, #smooth-wrapper #services .row .col:nth-child(1) #form form .input-wrapper:last-of-type label span .mask::before, #smooth-wrapper #services .row .col:nth-child(1) h3 span .mask::before {
   content: attr(data-attribute-text);
   white-space: nowrap;
   position: absolute;
